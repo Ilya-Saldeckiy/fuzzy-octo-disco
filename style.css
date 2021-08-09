@@ -2075,6 +2075,48 @@ ul {
     .description-action{
         width: 100%;
     }
+
+    .card{
+        padding-right: 15px;
+    }
+
+    .earning-money-title{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .graph-wrapper{
+        padding: 35px 20px;
+    }
+
+    .sit-wrapper,.countdown-wrapper,.box-monetization-text,.white-cards-box,.heading-wrapper,.action{
+        padding: 0 20px;
+    }
+
+    .features-security-wrapper {
+        padding: 65px 20px;
+    }
+
+    .description-text{
+        font-size: 15px;
+    }
+
+    .footer-end{
+        align-items: start;
+        margin-left: -8px;
+    }
+
+    .footer{
+        padding: 0 20px;
+    }
+
+    .action {
+        margin-top: 25px;
+    }
+
+    .line-items-one, .line-items-two {
+        padding: 0px 61px 50px 61px;
+    }
 }
 
 
