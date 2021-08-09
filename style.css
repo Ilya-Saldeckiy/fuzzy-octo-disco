@@ -903,6 +903,8 @@ body {
     padding-right: 20px;
 }
 
+
+
 .box-security .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     background-color: #fff;
 }
@@ -1563,7 +1565,7 @@ ul {
 
 .sit-wrapper {
     padding: 0 16px;
-    margin: -90px 0px;
+    margin: 20px 0px;
 }
 
 .sit-title {
@@ -1837,7 +1839,24 @@ ul {
     text-align: left;
 }
 
-@media screen and (min-width: 768px) {
+
+.footer__language{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 10px;
+}
+
+.footer__image-list img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -6px;
+}
+
+@media (max-width: 1024px) {
     .desktop-view {
         display: block;
     }
@@ -1848,9 +1867,13 @@ ul {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media(max-width: 1024px) {
     .desktop-view {
         display: none;
+    }
+
+    .logo{
+        margin-right: auto;
     }
 
     .desctop-text{
@@ -1937,7 +1960,7 @@ ul {
     .p1-cards-name {
         text-align: center;
         margin: 50px 0 10px 0;
-   }
+    }
 
     .logo-two {
         width: 160px;
@@ -2023,5 +2046,191 @@ ul {
     .footer-text {
         padding: 0 20px;
     }
+
+    .user-photo-container{
+        background-size: contain;
+    }
+
+    .site-map{
+        flex-wrap: wrap;
+    }
+
+    .name-column{
+        margin-right: 10px;
+    }
+
+    .footer-text {
+        padding: 0 10px;
+    }
+
+    .image-box{
+        position: relative;
+        top: 7px;
+    }
+
+    .title-action{
+        width: 100%;
+    }
+
+    .description-action{
+        width: 100%;
+    }
 }
+
+
+@media (max-width: 1320px) {
+    .parent,.h2-banner,.example{
+        width: 100%;
+    }
+
+    .example-description,.p-example-description{
+         width: 80%;
+     }
+
+    .line-chart{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        bottom: 60px;
+    }
+
+    .nav > li {
+        padding: 0 7px;
+    }
+
+    .btn-gs1{
+        width: 130px;
+    }
+
+    .line-items-one,.line-items-two{
+        flex-wrap: wrap;
+    }
+
+    .box-description{
+        flex-direction: column;
+    }
+
+    .box-description-text{
+        width: 100%;
+    }
+
+    .box-security{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box-security-text{
+         margin-bottom: 40px;
+     }
+
+    .box-monetization-text{
+        margin-top: 40px;
+    }
+
+    .chart-descripton{
+        flex-direction: column;
+    }
+
+    .desctop-text{
+        margin: 0 auto;
+    }
+
+    .doughnut-chart{
+        margin: 0 auto;
+        top: 0;
+    }
+
+    .team-wrapper{
+        width: 100%;
+    }
+
+    .dream-team,.box{
+        width: 100%;
+    }
+
+    .box{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .item-box{
+        margin: 0 auto;
+    }
+
+    .line-items-one,.line-items-two{
+        padding: 78px 61px 50px 61px;
+    }
+
+    .item-cards {
+        width: 100%;
+    }
+
+    .round-box {
+        width: 150px;
+    }
+
+    .round-box:last-child{
+        margin-left: 20px;
+    }
+
+    .round-box:first-child {
+        margin-right: 20px;
+    }
+
+    .tokenomics{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+/*@media (max-width: 1024px) {*/
+
+
+
+
+
+
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
