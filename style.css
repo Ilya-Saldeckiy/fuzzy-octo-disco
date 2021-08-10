@@ -1869,6 +1869,41 @@ ul {
     bottom: 60px;
 }
 
+.box-plans-china{
+    background-image: url(img/Roadmap.png);
+    width: 100%;
+    height: 2380px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.line-chart{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.china-el{
+    right: 445px;
+}
+
+.long-ellipse-china{
+    width: 300px;
+    background-size: cover;
+    top: 207px;
+}
+
+.yellow-long-ellipse-china{
+    width: 220px;
+    height: 56px;
+    z-index: 2;
+    top: 165px;
+    right: 421px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 @media (max-width: 1320px) {
     .parent,.h2-banner,.example{
         width: 100%;
@@ -2003,6 +2038,21 @@ ul {
 @media(max-width: 1024px) {
     .desktop-view {
         display: none;
+    }
+
+    .m-roadmap-china{
+        background-image: url(img/Roadmap.png);
+        width: 100%;
+        height: 2380px;
+        display: block;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .description-part1{
+        margin-right: 20px;
     }
 
     .logo{
@@ -2276,6 +2326,10 @@ ul {
 
     .sit-logo {
         height: 550px;
+    }
+
+    .outline-medium-china{
+        top: 17px;
     }
 }
 
