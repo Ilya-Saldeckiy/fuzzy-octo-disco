@@ -1856,6 +1856,139 @@ ul {
     top: -6px;
 }
 
+.mobile-view{
+    display: none;
+}
+
+.line-chart {
+    background-image: url(img/line-chart.png);
+    width: 1390px;
+    height: 552px;
+    position: relative;
+    left: 0px;
+    bottom: 60px;
+}
+
+@media (max-width: 1320px) {
+    .parent,.h2-banner,.example{
+        width: 100%;
+    }
+
+    .mobile-view{
+        display: none;
+    }
+
+    .example-description,.p-example-description{
+        width: 80%;
+    }
+
+    .line-chart{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        bottom: 60px;
+    }
+
+    .nav > li {
+        padding: 0 7px;
+    }
+
+    .btn-gs1{
+        width: 130px;
+    }
+
+    .line-items-one,.line-items-two{
+        flex-wrap: wrap;
+    }
+
+    .box-description{
+        flex-direction: column;
+    }
+
+    .box-description-text{
+        width: 100%;
+    }
+
+    .box-security{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box-security-text{
+        margin-bottom: 40px;
+    }
+
+    .box-monetization-text{
+        margin-top: 40px;
+    }
+
+    .chart-descripton{
+        flex-direction: column;
+    }
+
+    .desctop-text{
+        margin: 0 auto;
+    }
+
+    .doughnut-chart{
+        margin: 0 auto;
+        top: 0;
+    }
+
+    .team-wrapper{
+        width: 100%;
+    }
+
+    .dream-team,.box{
+        width: 100%;
+    }
+
+    .box{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .item-box{
+        margin: 0 auto;
+    }
+
+    .line-items-one,.line-items-two{
+        padding: 78px 61px 50px 61px;
+    }
+
+    .item-cards {
+        width: 100%;
+    }
+
+    .round-box {
+        width: 150px;
+    }
+
+    .round-box:last-child{
+        margin-left: 20px;
+    }
+
+    .round-box:first-child {
+        margin-right: 20px;
+    }
+
+    .tokenomics{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .line-chart {
+        background-image: url(img/line-chart.png);
+        width: 100%;
+        height: 552px;
+        position: relative;
+        left: 0px;
+        bottom: 60px;
+    }
+
+
+
+}
+
 @media (max-width: 1024px) {
     .desktop-view {
         display: block;
@@ -1940,6 +2073,10 @@ ul {
         width: 310px;
         height: 315px;
         padding: 0;
+    }
+
+    .sit-logo{
+        height: 900px;
     }
 
     .chart-descripton {
@@ -2115,117 +2252,32 @@ ul {
     }
 
     .line-items-one, .line-items-two {
-        padding: 0px 61px 50px 61px;
+        padding: 0px 20px 10px 20px;
+    }
+
+    .team-wrapper {
+        width: auto;
+        height: 635px;
+    }
+
+    .graph-step {
+        display: flex;
+         justify-content: left;
+        margin: 15px 0;
+    }
+
+    .m-graph {
+        background-image: url(img/mobile-graph.svg);
+        background-repeat: no-repeat;
+        height: 800px;
+        background-size: cover;
     }
 }
 
 
-@media (max-width: 1320px) {
-    .parent,.h2-banner,.example{
-        width: 100%;
-    }
-
-    .example-description,.p-example-description{
-         width: 80%;
-     }
-
-    .line-chart{
-        width: 100%;
-        position: relative;
-        left: 0px;
-        bottom: 60px;
-    }
-
-    .nav > li {
-        padding: 0 7px;
-    }
-
-    .btn-gs1{
-        width: 130px;
-    }
-
-    .line-items-one,.line-items-two{
-        flex-wrap: wrap;
-    }
-
-    .box-description{
-        flex-direction: column;
-    }
-
-    .box-description-text{
-        width: 100%;
-    }
-
-    .box-security{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .box-security-text{
-         margin-bottom: 40px;
-     }
-
-    .box-monetization-text{
-        margin-top: 40px;
-    }
-
-    .chart-descripton{
-        flex-direction: column;
-    }
-
-    .desctop-text{
-        margin: 0 auto;
-    }
-
-    .doughnut-chart{
-        margin: 0 auto;
-        top: 0;
-    }
-
-    .team-wrapper{
-        width: 100%;
-    }
-
-    .dream-team,.box{
-        width: 100%;
-    }
-
-    .box{
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .item-box{
-        margin: 0 auto;
-    }
-
-    .line-items-one,.line-items-two{
-        padding: 78px 61px 50px 61px;
-    }
-
-    .item-cards {
-        width: 100%;
-    }
-
-    .round-box {
-        width: 150px;
-    }
-
-    .round-box:last-child{
-        margin-left: 20px;
-    }
-
-    .round-box:first-child {
-        margin-right: 20px;
-    }
-
-    .tokenomics{
-        width: 60%;
-        margin: 0 auto;
-    }
 
 
 
-}
 
 /*@media (max-width: 1024px) {*/
 
