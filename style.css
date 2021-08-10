@@ -2331,6 +2331,21 @@ ul {
     .outline-medium-china{
         top: 17px;
     }
+
+    .ellipse-dashboard-china{
+        top: -9px;
+    }
+
+    .m-roadmap-china {
+        background-image: url(img/Roadmap.png);
+        width: 100%;
+        height: 800px;
+        display: block;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 120%;
+    }
 }
 
 
