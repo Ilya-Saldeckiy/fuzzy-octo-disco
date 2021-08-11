@@ -1885,13 +1885,14 @@ ul {
 }
 
 .china-el{
-    right: 445px;
+    display: none;
 }
 
 .long-ellipse-china{
     width: 300px;
     background-size: cover;
     top: 207px;
+    display: none;
 }
 
 .yellow-long-ellipse-china{
@@ -1902,6 +1903,11 @@ ul {
     right: 421px;
     background-size: contain;
     background-repeat: no-repeat;
+    display: none;
+}
+
+.text-ellipse-china{
+    display: none;
 }
 
 @media (max-width: 1320px) {
@@ -2339,12 +2345,16 @@ ul {
     .m-roadmap-china {
         background-image: url(img/Roadmap.png);
         width: 100%;
-        height: 800px;
+        height: 1700px;
         display: block;
         margin: 0 auto;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 120%;
+    }
+
+    .ellipse-dashboard-china,.outline-medium-china,.outline-large-china{
+        display: none;
     }
 }
 
