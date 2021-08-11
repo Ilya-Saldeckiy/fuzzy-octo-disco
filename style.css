@@ -314,13 +314,10 @@ body {
     color: #6153E1;
 }
 
-.line-chart {
-    background-image: url(img/line-chart.png);
-    width: 1105px;
-    height: 552px;
-    position: relative;
-    left: 140px;
-    bottom: 60px;
+
+
+.chart-china{
+    background-image: url(img/graph-china.png);
 }
 
 .emblem {
@@ -1910,6 +1907,19 @@ ul {
     display: none;
 }
 
+.line-chart {
+    background-image: url(img/line-chart.png);
+    width: 1105px;
+    height: 552px;
+    position: relative;
+    left: 140px;
+    bottom: 60px;
+}
+
+.chart-china {
+    background-image: url(img/graph-china.png);
+}
+
 @media (max-width: 1320px) {
     .parent,.h2-banner,.example{
         width: 100%;
@@ -2355,6 +2365,11 @@ ul {
 
     .ellipse-dashboard-china,.outline-medium-china,.outline-large-china{
         display: none;
+    }
+
+    .m-graph-chin{
+        background-image: url("img/graph-china-mob.png");
+        height: 550px;
     }
 }
 
