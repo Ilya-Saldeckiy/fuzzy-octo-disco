@@ -7,6 +7,10 @@ body {
     margin: 0 auto;
 }
 
+.position__absolute{
+    position: absolute;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -1920,6 +1924,18 @@ ul {
     background-image: url(img/graph-china.png);
 }
 
+.absolute__link{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url("img/telegram.svg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99999;
+}
+
 @media (max-width: 1320px) {
     .parent,.h2-banner,.example{
         width: 100%;
@@ -2370,6 +2386,18 @@ ul {
     .m-graph-chin{
         background-image: url("img/mobile-graph-china.svg");
         height: 550px;
+    }
+
+    .absolute__link{
+        width: 20px;
+        height: 20px;
+        display: block;
+        background: url("img/telegram.svg") no-repeat;
+        background-size: cover;
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        z-index: 99999;
     }
 }
 
