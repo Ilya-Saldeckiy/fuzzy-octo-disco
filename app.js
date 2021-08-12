@@ -60,3 +60,8 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
   });
 });
 
+
+$('.btn').click(function () {
+  window.open('https://forms.gle/5izfp6aCNH9QG6BEA');
+});
+
